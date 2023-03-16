@@ -1,0 +1,39 @@
+Deklarasi
+kode_barang : String
+nama_barang : String
+harga_barang : double
+jumlah_barang : double
+Total_harga : double
+bayar : double
+kembali : double
+
+Deskripsi
+Read (kode_barang)
+If kode_barang >< ”2013aaa” or >< “2013bbb” or >< “2013ccc” then
+Write (“KODE SALAH!!”)
+End if
+Else 
+If kode_barang = “2013aaa” then
+nama_barang = Shampo
+harga_barang = 5000
+End if
+If kode_barang =”2013bbb” then
+nama_barang = Pasta gigi
+harga_barang = 5000
+End if
+If kode_barang =”2013ccc” then
+nama_barang = Sabun mandi
+harga_barang = 4000
+End if
+Read (jumlah_barang)
+jumlah_harga = harga_barang*jumlah_barang
+Read (bayar)
+Kembali = bayar - total_harga
+Write (kode_barang)
+Write (nama_barang)
+Write (harga_barang)
+Write (jumlah_barang)
+Write (Total_harga)
+Write (bayar)
+Write (kembali)
+end 
